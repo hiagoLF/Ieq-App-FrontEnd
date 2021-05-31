@@ -1,0 +1,84 @@
+{
+    "iconsNameToTextInput": {
+        "title": "title",
+        "description": "description",
+        "coverImage": "image",
+        "text": "notes",
+        "links": "link",
+        "published": "published_with_changes"
+    },
+    "infoGeneralConfig": {
+        "ministry": {
+            "title": "Ministério",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ]
+        },
+        "history": {
+            "title": "História",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ],
+            "api": {
+                "create": {"method": "POST", "url": "/history/create"}
+            }
+        },
+        "news": {
+            "title": "Notícia",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ]
+        },
+        "reflections": {
+            "title": "Reflexão",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ]
+        },
+        "shepherds": {
+            "title": "Pastor",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ]
+        },
+        "events": {
+            "title": "Evento",
+            "fields": [
+                "title",
+                "description",
+                "coverImage",
+                "text",
+                "links",
+                "published"
+            ]
+        },
+        "album": {
+            "title": "Galeria de imagem"
+        }
+    }
+}
